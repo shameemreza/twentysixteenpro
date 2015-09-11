@@ -31,3 +31,8 @@ Tweenty Sixteen is a beautiful, minimal, content focused, responsive WordPress t
 * WordPress Version: 3.X, 4.X
 * Files Included: PHP Files, CSS Files, JS Files
 * Browsers Compatible: IE9, IE10, IE11, Firefox, Safari, Opera, Chrome
+
+####Credits:
+
+* Workless : http://workless.ikreativ.com/
+* Font Awesome : https://fortawesome.github.io/Font-Awesome/
