@@ -1,0 +1,47 @@
+/**
+ * Tables
+ */
+table 
+{
+    background: #ffffff;
+  	width: 100%;
+  	margin-bottom: 18px;
+  	padding: 0;
+  	border-collapse: separate;
+  	font-size: 13px;
+}
+
+table thead
+{
+    background: #f8f8f8;
+    border: none;
+}
+
+table th, 
+table td 
+{
+  	padding: 15px;
+  	line-height: 13.5px;
+  	text-align: left;
+  	vertical-align: middle;
+}
+
+table th 
+{
+    border-top: none;
+}
+
+table tr
+{
+    border-top: 1px solid #eeeeee;
+}
+
+.table-striped tbody tr:nth-child(odd) td 
+{
+  	background-color: #f3f3f3;
+}
+
+.table-striped tbody tr:hover td 
+{
+  	background-color: #f5f5f5;
+}

@@ -1,0 +1,80 @@
+/**
+ * Scaffolding
+ */
+.boxed
+{
+    width: 55%;
+	margin: 0 auto;
+}
+
+.one-full
+{
+    width: 100%;
+	margin: 0;
+	float: left;
+}
+
+.one-half,
+.one-third,
+.two-third,
+.one-quarter,
+.three-quarter,
+.one-fifth,
+.two-fifth,
+.three-fifth,
+.four-fifth
+{
+	margin: 0;
+	padding-right: 25px;
+	float: left;
+}
+
+.one-full
+{
+    width: 100%;
+}
+
+.one-half
+{
+    width: 50%;
+}
+
+.one-third
+{
+    width: 33.33333%;
+}
+
+.two-third
+{
+    width: 66.66666%;
+}
+
+.one-quarter
+{
+    width: 25%;
+}
+
+.three-quarter
+{
+    width: 75%;
+}
+
+.one-fifth
+{
+    width: 20%;
+}
+
+.two-fifth
+{
+    width: 40%;
+}
+
+.three-fifth
+{
+    width: 60%;
+}
+
+.four-fifth
+{
+    width: 80%;
+}

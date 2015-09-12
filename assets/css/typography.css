@@ -1,0 +1,344 @@
+/**
+ * Typography
+ */
+html
+{
+	font: 18px/1.6 "Slabo 13px", Times, serif;
+    font-weight: 400;
+}
+
+body 
+{
+	text-rendering: optimizeLegibility; 
+	font-size: 100%; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%; 
+}
+
+a 
+{ 
+	font-weight: inherit; 
+	font-size: inherit; 
+	text-decoration: none; 
+	-webkit-transition: 250ms linear all; 
+	-moz-transition: 250ms linear all; 
+	transition: 250ms linear all; 
+}
+
+a:focus 
+{ 
+	outline: 0; 
+}
+
+a:hover, 
+a:active 
+{ 
+	outline: 0; 
+}
+
+abbr[title] 
+{ 
+	border-bottom: 1px dotted; 
+}
+
+b, 
+strong 
+{ 
+	color: inherit;
+	font-weight: 900!important; 
+}
+
+blockquote,
+blockquote p
+{
+	width: 100%;
+    background: #f9f9f9;
+	font-size: 18px; 
+	position: relative;
+	z-index: 5;
+    float: left;
+    margin: 15px 0 35px 0;
+    padding: 25px 25px 15px 25px;
+}
+
+span.fancyamp
+{
+	font-family: Baskerville, Palatino, "Book Antiqua", serif;
+  	font-style: italic;
+  	color: inherit;
+  	font-size: inherit;
+}
+
+dfn 
+{ 
+	font-style: italic; 
+}
+
+hr 
+{ 
+	display: inline-block; 
+	height: 0px; 
+	width: 100%; 
+	border: 0; 
+	border-bottom: 3px solid #f8f8f8;
+	padding: 0; 
+	margin: 35px 0;
+}
+
+ins 
+{ 
+	background: #ffffe0; 
+	text-decoration: none; 
+}
+
+mark 
+{ 
+	background: #ffffe0; 
+	font-style: italic; 
+	font-weight: bold; 
+}
+
+address 
+{ 
+	display: block; 
+	line-height: 18px; 
+	margin-bottom: 18px; 
+}
+
+pre, 
+code, 
+kbd, 
+samp 
+{ 
+	font-family: monospace; 
+}
+
+code
+{
+	background: #f9f9f9;
+	border: 1px solid #eeeeee;
+	padding: 3px 5px;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+pre 
+{
+	display: block;
+	overflow: hidden;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
+	white-space: pre-wrap; 
+	word-wrap: break-word;
+	font-family: monospace; 
+	font-size: 13px;
+}
+
+q 
+{ 
+	quotes: none; 
+}
+q:before, 
+q:after 
+{ 
+	content: ""; 
+	content: none; 
+}
+
+small 
+{ 
+	font-size: 0.5em;
+}
+/**
+ * Position subscript and superscript 
+ * content without affecting line-height. 
+ */
+sub, 
+sup 
+{ 
+	font-size: 75%; 
+	line-height: 0; 
+	position: relative; 
+	vertical-align: baseline; 
+}
+
+sup 
+{ 
+	top: -0.5em; 
+}
+
+sub 
+{ 
+	bottom: -0.25em; 
+}
+/** 
+ * Give paragraphs some default styling. 
+ */
+p 
+{ 
+	line-height: 32px;
+	margin: 0 0 1em 0;
+}
+
+p.snippet
+{
+    font-size: 18px;
+    line-height: 28px;
+    color: #888888;
+}
+
+p.snippet:after
+{
+    display: block;
+    height: 2px;
+    background-color: #aaaaaa;
+    content: " ";
+    width: 35px;
+    margin-top: 25px;
+}
+/**
+ * Lists
+ */
+ul, 
+ol 
+{ 
+	margin: 0 0 15px 0; 
+	padding: 0; 
+}
+
+ul ul, 
+ul ol, 
+ol ol, 
+ol ul 
+{ 
+	margin-bottom: 0; 
+}
+
+ul 
+{ 
+	list-style: disc; 
+}
+
+ol 
+{ 
+	list-style: decimal; 
+}
+
+ol.roman
+{
+	list-style: upper-roman;
+}
+
+li 
+{ 
+	line-height: 28px;
+}
+
+dl 
+{ 
+	margin-bottom: 15px; 
+}
+
+dl dt 
+{ 
+	font-weight: bold; 
+}
+
+dl dd 
+{ 
+	margin-left: 9px; 
+}
+
+ul, ol 
+{ 
+	margin: 0 0 10px 20px; 
+	padding: 0; 
+}
+
+dd 
+{ 
+	margin: 0 0 0 20px; 
+}
+/** 
+ * Set heading styles 
+ */
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin: 0 0 0.8em 0;
+    line-height: 1em;  
+}
+
+h1
+{
+	font-size: 180%;
+}
+
+h2
+{
+	font-size: 160%;
+}
+
+h3
+{
+	font-size: 140%;
+}
+
+h4
+{
+	font-size: 120%;
+}
+
+h5
+{
+	font-size: 110%;
+}
+
+h6
+{
+    font-size: 12px;
+}
+
+.small-title
+{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.small-title:after
+{
+    display: block;
+    height: 2px;
+    background-color: #555555;
+    content: " ";
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    margin-top: 15px;
+}
+
+.small-title i
+{
+    line-height: 50px;
+    font-size: 28px;
+}
+/** 
+ * We probably don't want list-styles if it's in a navigation. 
+ */
+nav ul, 
+nav ol, 
+#nav ul, 
+#nav ol, 
+#navigation ul, 
+#navigation ol, 
+.nav 
+{ 
+	list-style: none; 
+	list-style-image: none; 
+	margin: 0; 
+	padding: 0; 
+}

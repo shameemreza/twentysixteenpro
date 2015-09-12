@@ -1,0 +1,111 @@
+/**
+ * Buttons
+ */
+.button,
+a.button
+{
+    background: #262626;
+    color: #ffffff!important;
+    border: none;
+	width: auto;
+	font-size: 14px;
+	display: inline-block;
+	padding: 15px 25px;
+	text-decoration: none;
+	position: relative;
+	z-index: 99;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-transition: 150ms linear all; 
+	-moz-transition: 150ms linear all; 
+	transition: 150ms linear all;
+}
+
+.small.button
+{
+	font-size: 14px;
+}
+
+.medium.button
+{
+	font-size: 16px;
+	line-height: 1;
+}
+
+.large.button
+{
+	font-size: 18px;
+	padding: 20px 40px;
+}
+
+.rounded.button
+{
+	border-radius: 25px;
+}
+/**
+ * Pink
+ */
+.pink.button
+{
+	border-color: #fe57a1!important;
+	color: #fe57a1!important;
+}
+/**
+ * Green
+ */
+.green.button
+{
+	border-color: #60bfb1!important;
+	color: #60bfb1!important;
+}
+/**
+ * Blue
+ */
+.blue.button
+{
+	border-color: #2daebf!important;
+	color: #2daebf!important;
+}
+/**
+ * Red
+ */
+.red.button
+{
+	border-color: #ff0000!important;
+	color: #ff0000!important;
+}
+/**
+ * Magenta
+ */
+.magenta.button
+{
+	border-color: #a9014b!important;
+	color: #a9014b!important;
+}
+/**
+ * Orange
+ */
+.orange.button
+{
+	border-color: #F16863!important;
+	color: #F16863!important;
+}
+/**
+ * Yellow
+ */
+.yellow.button
+{
+	border-color: #ffb515!important;
+	color: #ffb515!important;
+}
+/* states */
+.button:hover
+{
+    background: #111111!important;
+    color: #ffffff!important;
+}
+
+.button:active
+{
+	top: 1px;
+}
