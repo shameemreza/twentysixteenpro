@@ -1,4 +1,4 @@
-Tweenty Sixteen is a beautiful, minimal, content focused, responsive WordPress theme for bloggers and writers. Twenty Sixteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. I designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Tweenty Sixteen Pro is a beautiful, minimal, content focused, responsive WordPress theme for bloggers and writers. Twenty Sixteen Pro's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. I designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
 
 ###Key Features:
 
